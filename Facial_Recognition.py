@@ -40,7 +40,7 @@ while True:
 
     frame_counter += 1
 
-    print("Frame: "+frame_counter)
+    print("Frame: "+ str(frame_counter))
     # Se o vídeo acabou, saia do loop
     if not success:
         break
